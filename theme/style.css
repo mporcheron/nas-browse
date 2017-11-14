@@ -1,0 +1,132 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	margin: 1em;
+	min-height: 100%;
+	padding: 0 0 4em 0;
+	position: relative;
+	text-align: left;
+}
+
+h1:before {
+	content: 'Directory ';
+}
+
+h1 {
+	background: #fcfcfc;
+	background: -moz-linear-gradient(top,  #fcfcfc 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top,  #fcfcfc 0%,#f7f7f7 100%);
+	background: -o-linear-gradient(top,  #fcfcfc 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top,  #fcfcfc 0%,#f7f7f7 100%);
+	background: linear-gradient(to bottom,  #fcfcfc 0%,#f7f7f7 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f7f7f7',GradientType=0 );
+	border-bottom: 1px solid #ccc;
+	color: #003E6D;
+	font-family: 'Gill Sans', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: -.833em -.833em 0 -.833em;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+table {
+	border-bottom: 1px solid #ccc;
+	border-collapse:collapse;
+	margin-top: 1em;
+	width: 100%;
+}
+
+	th, td {
+		padding: .5em;
+	}
+
+
+	.indexhead th {
+
+	}
+
+	.indexhead th a {
+		color: #999;
+		font-size: 0.75em;
+	}
+
+		.indexhead th a:hover {
+			color: #000;
+		}
+
+	.indexbreakrow {
+		display: none;
+	}
+
+	.indexcolicon {
+		text-align: center;
+		width: 32px;
+	}
+
+	.indexcolname {
+		min-width: 50%;
+	}
+
+	.indexcollastmod {
+		width: 15%;
+	}
+
+	.indexcolsize {
+		width: 10%;
+	}
+
+	tr.odd, tr.even {
+		color: #555;
+		border-top: 1px solid #ccc;
+		-webkit-transition: background 150ms ease;
+		-moz-transition: background 150ms ease;
+		-ms-transition: background 150ms ease;
+		-o-transition: background 150ms ease;
+		transition: background 150ms ease;
+	}
+
+	tr.odd a, tr.even a {
+		color: #555;
+	}
+
+	tr.odd:hover, tr.even:hover {
+		background: #f6f6f6;
+		color: #000;
+	}
+
+footer {
+	bottom: 0;
+	left: 0;
+	padding-bottom: 3px;
+	position: absolute;
+}
+
+	footer p {
+		color: #999;
+		cursor: default;
+		font-size: 0.8em;
+		font-weight: 100;
+		-moz-user-select: none;
+		-o-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
+	}
